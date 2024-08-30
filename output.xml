@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.8.2 on win32)" generated="2024-08-16T09:53:27.752600" rpa="false" schemaversion="5">
+<suite id="s1" name="Pythonconcepts" source="C:\Users\dadu\pythonconcepts">
+<suite id="s1-s1" name="RobotFW RahulShetty" source="C:\Users\dadu\pythonconcepts\RobotFW_RahulShetty">
+<suite id="s1-s1-s1" name="testDemo1" source="C:\Users\dadu\pythonconcepts\RobotFW_RahulShetty\testDemo1.robot">
+<test id="s1-s1-s1-t1" name="Validate UnSuccesful Login" line="11">
+<kw name="open the browser with the Mortage payment url">
+<msg time="2024-08-16T09:53:28.164233" level="FAIL">No keyword with name 'open the browser with the Mortage payment url' found. Did you try using keyword '' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2024-08-16T09:53:28.164233" elapsed="0.000000">No keyword with name 'open the browser with the Mortage payment url' found. Did you try using keyword '' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<status status="FAIL" start="2024-08-16T09:53:28.160539" elapsed="0.003694">No keyword with name 'open the browser with the Mortage payment url' found. Did you try using keyword '' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<doc>To Validate the Login form</doc>
+<status status="FAIL" start="2024-08-16T09:53:27.800044" elapsed="0.367181"/>
+</suite>
+<status status="FAIL" start="2024-08-16T09:53:27.798044" elapsed="0.371180"/>
+</suite>
+<status status="FAIL" start="2024-08-16T09:53:27.762604" elapsed="0.410622"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Pythonconcepts">Pythonconcepts</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="RobotFW RahulShetty">Pythonconcepts.RobotFW RahulShetty</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="testDemo1">Pythonconcepts.RobotFW RahulShetty.testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-08-16T09:53:27.410618" level="ERROR">Error in file 'C:\Users\dadu\pythonconcepts\RobotFW_RahulShetty\testDemo1.robot' on line 18: Creating keyword '' failed: User keyword name cannot be empty.</msg>
+</errors>
+</robot>
