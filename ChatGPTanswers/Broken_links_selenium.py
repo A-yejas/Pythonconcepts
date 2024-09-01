@@ -419,3 +419,4 @@ print("Deep Copy List:", deep_copy_list)  # Output: [1, 2, [3, 4]]
 Use shallow copy when you want to create a new object but don't mind if the nested objects are shared between the original and the copy. Use deep copy when you need an entirely independent copy, especially when dealing with complex, nested data structures.
 
 '''
+# --->>>>>>>>>>>>>>>>>>>
