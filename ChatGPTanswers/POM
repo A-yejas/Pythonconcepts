@@ -1,0 +1,42 @@
+what is page object model with simple english explain
+ChatGPT said:
+ChatGPT
+The Page Object Model (POM) is a design pattern used in software testing to make automation tests easier to write, maintain, and understand.
+
+Imagine a website as a book with different pages. Each web page has elements like buttons, text fields, and links. In POM, you treat each web page as an "object" in your code. You create a separate file (or class) for each web page that contains all the actions you can do on that page, such as clicking a button or entering text.
+
+This way, instead of writing the same code over and over for different tests, you can just use the "page object" to interact with the page. It keeps your test code clean and organized.
+
+Here's an example in simple terms:
+
+Login Page Object: A file where you define how to click the "Login" button and enter the username/password.
+Test File: Uses the Login Page Object to perform the login action without directly dealing with the login page’s details.
+By separating the details of the web page from the test logic, POM makes the tests more reusable and easier to maintain.
+
+
+
+
+
+
+You said:
+@pytest.mark.hookwrapper means in simple language
+ChatGPT said:
+ChatGPT
+In simple terms, @pytest.mark.hookwrapper is a special marker in pytest used to wrap around test hooks.
+
+Here’s a breakdown:
+
+Hook: A hook is like a special function that pytest calls at specific points during the testing process (e.g., before or after a test runs).
+Wrapper: A wrapper is a piece of code that runs around (before and after) some other code.
+When you use @pytest.mark.hookwrapper, you are telling pytest, "I want to add extra steps both before and after the original hook runs." It lets you do something before handing over control to the original hook and then do something again after the original hook has finished.
+
+For example, you could use this to log some information before and after each test runs, while still allowing the normal test flow to happen.
+
+In summary, it helps you "wrap" extra actions around the normal behavior of pytest's hooks.
+
+
+
+
+
+
+

@@ -1,7 +1,4 @@
 #Difference between AJax & Json
-#Idempotent means whenever i calling this put api entire the particular API the entire object will be updated
-#it will not create a new row in the database it will not create a new user in the db
-# Inother words:-static method which can be called by without the object directly by using class you can call you
 '''
 Ajax:- Stans for Asynchronous javascript and XM,
 1.Itis used to communicate with server without refreshing the web page and thus increasing the user exp & perfrmance
@@ -78,7 +75,7 @@ Where we will use this data driven testing :-  we can use this DDT is for exampl
 for create Authentication , suppose i want to test my 100 users for admin 
 
 '''
-##Create Virtual ENV:- virtualenv (name_any eg:- venu)
+##Create Virtual ENV:- virtualenv (name_any eg:- venv)
 #for activae For linux :-  Source  venu/bin/activate , For deactivate:- deactivate
 #README.md is a create documentation file
 '''
@@ -306,4 +303,58 @@ JSON:- Json schema validate the structure and type only not the values.
 Json schema regex:- ^[A-Za-z0-9 -_]+_Prog\\.(exe |EXE)$"
 Auth 2.0
 Only path the Client_id & Client_Secret
+'''
+#Idempotent means whenever i calling this put api entire the particular API the entire object will be updated
+#it will not create a new row in the database it will not create a new user in the db
+'''
+curl --location --request GET 'https://edge--non-prod--elasticsearch.hirealchemy.com:9205/hcl--dev--ta--candidates-02/_search' \
+--header 'Authorization: Basic ZWRnZS0tbm9uLXByb2QtLWVsYXN0aWNzZWFyY2gtLXVzci0wMTplZGdlLS1ub24tcHJvZC0tZWxhc3RpY3NlYXJjaC0tdXNyLTAxLUVkR0UyMDE5' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "query": {
+        "match": {
+            "resume_ids": "1446118"
+        }
+    }
+}'
+-----------------------
+ELASTIC SEARCH:-
+{
+   "doc":{
+      "projects":[
+         
+         {
+            "project_name":"AIGI-Consulting Services",
+            "project_id":"C070941",
+            "assignment_start_date":"2021-01-01",
+            "assignment_end_date":"2022-12-31",
+            "responsibilities":null,
+            "is_current_employee":null,
+            "skills":[
+               
+            ],
+            "allocation_percentage":100,
+            "cand_proj_id":"",
+            "is_company_project":true
+         },
+         {
+            "project_name":"AIG sunamerica Chennai",
+            "project_id":"C115269",
+            "assignment_start_date":"2023-01-01",
+            "assignment_end_date":"2023-12-31",
+            "responsibilities":null,
+            "is_current_employee":null,
+            "skills":[
+               
+            ],
+            "allocation_percentage":100,
+            "cand_proj_id":"",
+            "is_company_project":true
+         }
+      ]
+   }
+}
+-----------------------
+
+
 '''

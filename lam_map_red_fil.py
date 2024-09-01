@@ -49,12 +49,27 @@ print(list(squared_numbers))  # Output: [1, 4, 9, 16]
 '''
 ###################
 '''
-Zip() is used to map the similar index of multiple containers and return as zip object
+Zip() is used to map the similar index of multiple containers and return as zip object.
+or
+zip function is defined as Zip(*iterator) the function takes iterables as argument and return an iterator.
+This iterator generate a series of tuples containing elements from each iterable.
+Zip() function can accept the any type of iterables.eg: list.
 ex:-zip(iterable1, iterable2, ...)
 
 a=[1,2,3,4,5]
 b=['a','b','c','d']
 print(list(zip(a,b)))
+---------------------
+# Define two lists
+names = ["Alice", "Bob", "Charlie"]
+ages = [25, 30, 35]
+
+# Use zip() to combine the lists
+combined = zip(names, ages)
+
+# Convert the zip object to a list and print it
+print(list(combined))  # Output: [('Alice', 25), ('Bob', 30), ('Charlie', 35)]
+
 '''
 ##########################
 '''
