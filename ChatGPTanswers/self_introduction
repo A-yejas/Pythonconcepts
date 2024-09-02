@@ -1,0 +1,112 @@
+My Data
+
+Hi I’m Yejas ,working at Edge Networks as Sr QA Engg.
+I hold about 5 Yrs and 3 Months of experience in Python automation development and Manua testing .
+I have good hands on experience in Front end testing using Python with selenium
+and for the backend testing , worked on Python with request module.
+And Having good hands on experience in source code management tool like GitHub and for bugs tracking , we are using the Jira and Test rail tools.
+In the current Organization , I worked on project called Path Finder.
+This project is about the Internal jobs web application where user can be able to view the jobs posted on this portal and can be able to apply.
+
+here my roles and responsibilities are
+ To Perform the sanity and regression test on top of the build releases.
+ Triggering the Jenkins build for the automation scripts in stagging Env on daily basis , Triaging and fixing the bugs on Jenkins failures.
+Developing the automation test scripts for the new feature developments for frontend  and Backend using python , selenium and Request and also optimizing the pytest framework
+Writing and executing manual testcases for the non-automated test scenario’s
+creating and assign Bugs on developers with respective to the feature failures
+creating stories for the current sprint on top of jira
+Following agile methodology and part of sprint ceremonies like sprint planning, sprint retro , sprint review meeting and sprint grooming and daily scrum calls.
+
+On this Project have  creating the employes   the application
+
+
+-----------------------------------
+Udemy:-
+-------------------------------------
+Here's an improved and clearer version of your project description:
+
+---
+
+**Project: Path Finder**
+
+Path Finder is an internal job portal web application designed to allow employees to view and apply for job postings within the organization. The application offers several key features:
+
+1. **User Access Management**:
+   - Users are created and granted portal access based on specific criteria such as their country, bandwidth, and additional verification fields like `dfr_flag`. Access is restricted accordingly.
+
+2. **Job Application and Interest Expression**:
+   - Users can apply for jobs directly through the portal.
+   - If a user’s skills and experience match a job but their job level (band) does not, they can express interest in the job through a designated "Interest" button.
+   - Jobs with a duration of 24 months or more are highlighted based on the project duration condition.
+
+3. **Automated Processes**:
+   - Upon applying for a job, users receive a success notification, and the job moves to the "Applied Jobs" section.
+   - An email is sent to both the respective job manager and the employee regarding the application.
+   - Applied jobs are removed from the main job listings and moved to the "Applied Jobs" tab.
+   - These jobs are also transferred to another application called "IWO," which managers use to take further action on the applications.
+
+4. **Application Limits**:
+   - Users are restricted from applying for more than three jobs if they have not received any status updates on previous applications.
+   - This restriction is lifted only when one of their applications is rejected, allowing them to apply for more jobs.
+
+The test scripts for these features were developed and executed using Selenium with Python, ensuring the application functions as intended.
+
+---
+
+This version is more polished and easier to understand. Let me know if you need any further adjustments!
+-----------------------------------------UDEMY ROLEs & RESPONSIBILITIES
+Here’s a more detailed and simplified version of your roles and responsibilities:
+
+---
+
+### **Roles and Responsibilities on Path Finder Project**
+
+1. **Sanity and Regression Testing**:
+   - I performed sanity checks to ensure the basic functionalities of the application were working after each new build.
+   - I conducted regression testing to verify that new code changes did not negatively impact existing features.
+
+2. **Jenkins Build Management**:
+   - I was responsible for triggering the Jenkins build for automation scripts in the staging environment on a daily basis.
+   - I monitored the build results, identified any failures, and worked on fixing bugs that caused these failures.
+
+3. **Automation Test Development**:
+   - I developed automated test scripts for both frontend and backend features using Python, Selenium, and the Requests library.
+   - I optimized the pytest framework to improve the efficiency and effectiveness of our test scripts.
+
+4. **Manual Testing**:
+   - I wrote and executed manual test cases for scenarios that were not automated, ensuring comprehensive testing coverage.
+
+5. **Bug Management**:
+   - I identified and reported bugs, assigning them to the appropriate developers based on the feature that was failing.
+
+6. **Sprint and Story Management**:
+   - I created user stories in Jira for the current sprint, detailing tasks and features that needed to be developed or tested.
+
+7. **Agile Methodology**:
+   - I followed the agile methodology and actively participated in all sprint ceremonies, including:
+     - **Sprint Planning**: Planning the tasks for the upcoming sprint.
+     - **Sprint Retrospective**: Reflecting on the past sprint to identify areas of improvement.
+     - **Sprint Review**: Reviewing the completed work and getting feedback.
+     - **Sprint Grooming**: Refining the backlog by prioritizing tasks.
+     - **Daily Scrum Calls**: Attending daily meetings to discuss progress and blockers.
+
+---
+
+This version provides a clear and comprehensive overview of your roles and responsibilities in simple English. Let me know if there's anything else you'd like to add!
+----------OWNED WRITTEN___________------------------------------------------------------------------------------------
+I worked on project called Path Finder.
+This project is about the Internal jobs web application where user can be able to view the jobs posted on this portal
+and can be able to apply.
+And have creating the users and giving portal access the based on his country and bandwiidth
+along with certain fields we have to verify like (dfr_flag e.t.c.,) before giving the access.
+By using this application user can able to apply the jobs and also his express the interests where user match the
+skills and experience but band is not matching in that cases we showing the interest button like this we have multiple
+features on this project and also based project duration condition also we showing the jobs the duration should be
+more than or equal to 24 months like that we have features these type of all features we develop the scripts and executed. using selenium   with python.
+Once user apply the jobs he got the successful applied toast message and jobs be moved to applied jobs section and sending
+the email to respective job manager and employee regarding specific  user specific job is applied and also
+we have one more tool integrated with this application like applied jobs should be removes all jobs section and be moved to aapplied jobs tab and
+should be trasnfer to iwo application this managers used application. By using this iwo application manager taking the there actions on applied jobs.
+and also here we stoping the employee if he applied more than 3 jobs but not get any status for those ,
+againwe are allowing only when his any application got rejected like this of sacenerios has developed the test scripts.
+correct the spellings and eloborate with simple english

@@ -420,3 +420,58 @@ a4b5c3
 
 This method will compress the string as required, outputting `a4b5c3` for the input `'aaaabbbbbccc'`.
 '''
+# import pytest
+#
+# def square(num):
+#     return num * num
+#
+# @pytest.mark.parametrize('num',[1,2,pytest.param(3,marks=pytest.mark.skip),4,5])
+# def test_square(num):
+#     result = square(num)
+#     assert result == num ** 2
+####################Repeat a string
+'''
+To print a repeated text in a string, you can multiply the string by an integer. Here's an example in Python:
+
+```python
+text = "Hello "
+repeat_count = 3
+result = text * repeat_count
+print(result)
+```
+
+This code will print the string `"Hello "` three times:
+
+```
+Hello Hello Hello 
+```
+
+You can adjust the `repeat_count` variable to repeat the text as many times as you like.
+
+'''
+class TestClass:
+
+    hello='xc'
+    def test_one(self):
+        x = "this"
+        assert "h" in x
+
+    def test_two(self):
+        x = "hello"
+        assert hasattr(x, "lower")
+
+
+
+# declaring class
+# class Student:
+#     name = 'Sean'
+#     age = 22
+
+# initializing object
+# obj = Student()
+
+# using hasattr() to check named attributes in object
+# print('Student has name? :', hasattr(obj, 'name'))
+# print('Student has age? :', hasattr(obj, 'age'))
+# print('Student has address? :', hasattr(obj, 'address'))
+# print('Student has mobile? :', hasattr(obj, 'mobile'))
