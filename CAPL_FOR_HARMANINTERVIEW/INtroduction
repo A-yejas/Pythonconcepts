@@ -1,0 +1,49 @@
+CAPL:- Communication Access Programming Language
+1.“CAPL is a procedural language whereby the execution of program blocks is controlled by events.
+These program blocks are known as event procedures.”
+2.CAPL is an event-controlled programming language used for stimulating, simulating, testing and diagnostics.
+3.It allows programming of network node models (CANoe)
+4.It is also possible to use CAPL for problem-oriented analysis of data traffic or programming a gateway to exchange
+data between different busses.
+------------------------------------
+1.Differences between Environmental variable and System variable?
+2.Write a code in CAPL to transmit a message continuously with 500 ms periodicity.
+3.Define a buffer which stores the response of Read DTC $19 02. Write a CAPL code to show the status of requested DTC.
+If DTC is present, show the status i.e., active or passive. If DTC is not present display a message indicating
+DTC is not set.
+2.
+
+Variables
+
+{
+
+message message_DBC_name var_name = {dlc = 8};
+
+}
+
+on timer t1_500ms
+
+{
+
+var_name.byte(0) = 0x33;
+
+var_name.byte(1) = 0x55;
+
+var_name.byte(2) = 0x44;
+
+output(var_name);
+
+setTimer(t1_500ms,500);
+
+}
+
+on start
+
+{
+
+setTimer(t1_500ms,500);
+
+}
+-----------------------------------------------------------------------
+Q:-What is the bit size of a Boolean variable?
+Boolean variables are stored as 16-bit (2-byte) numbers, but they can only be True or False.

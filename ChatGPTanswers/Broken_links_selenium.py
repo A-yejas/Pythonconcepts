@@ -2,7 +2,8 @@
 
 
 '''
-You can find broken links on a webpage using Selenium in Python by making HTTP requests to the URLs
+You can find broken links on a webpage using
+-->Using Selenium in Python by making HTTP requests to the URLs
 of all links on the page. A broken link typically returns a status code like 404 (Not Found).
 Below is a simple example using Selenium and the `requests` library to check for broken links:
 
@@ -357,11 +358,15 @@ This pattern is particularly useful in larger test suites where multiple page ob
 '''
 ### Shallow Copy vs. Deep Copy in Python
 
-When you copy an object in Python, there are two types of copies you can make: a **shallow copy** and a **deep copy**. Understanding the difference between these two is crucial when dealing with complex data structures like nested lists or dictionaries.
+When you copy an object in Python, there are two types of copies you can make: a **shallow copy** and a **deep copy**. 
+Understanding the difference between these two is crucial when dealing with complex data structures 
+like nested lists or dictionaries.
 
 #### Shallow Copy
 
-A **shallow copy** creates a new object, but it inserts references to the objects found in the original. If the original object contains nested objects (like lists within lists), the shallow copy will contain references to the same nested objects.
+A **shallow copy** creates a new object, but it inserts references to the objects found in the original. 
+If the original object contains nested objects (like lists within lists), the shallow copy will contain references 
+to the same nested objects.
 
 ##### Example of Shallow Copy
 
@@ -383,7 +388,8 @@ print("Shallow Copy List:", shallow_copy_list)  # Output: [1, 2, [99, 4]]
 
 **Explanation:**
 - The `shallow_copy_list` is a new list, but it references the same inner list `[3, 4]` as the `original_list`.
-- When you modify the inner list in the `original_list`, the change is reflected in the `shallow_copy_list` as well, because they both reference the same inner list.
+- When you modify the inner list in the `original_list`, the change is reflected in the `shallow_copy_list` as well, 
+because they both reference the same inner list.
 
 #### Deep Copy
 

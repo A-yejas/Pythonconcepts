@@ -127,5 +127,6 @@ Summary:-
 ->Implementation: Use a custom class or a list to collect assertion results and check them at the end of the test.
 ->Mark Test as Failed: If any assertions fail, raise an exception like AssertionError or use pytest.fail() to mark the test as failed.
 
-Note:- This pattern helps you maintain the flexibility of continuing tests even when some conditions fail, while still ensuring the test is appropriately marked as failed at the end.
+Note:- This pattern helps you maintain the flexibility of continuing tests even when some conditions fail, 
+while still ensuring the test is appropriately marked as failed at the end.
 '''

@@ -12,7 +12,7 @@ This might happen, for example, when an app asks if it can access your Facebook 
 This token acts like a temporary key that lets the app access specific information (like your email address) without knowing your password.
 
 3. **Limited Access**: The token only allows access to what you agreed to share. The app can't access other information or
- perform actions outside of the permissions you've given.
+ perform actions out side of the permissions you've given.
 
 4. **Expiration**: The token often expires after a certain period, or you can revoke it whenever you want,
 cutting off the app's access.

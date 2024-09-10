@@ -265,6 +265,7 @@ found or the timeout (10 seconds) is reached.
 and you can handle it accordingly.
 
 ### Summary:
-Fluent Wait is a more advanced and flexible waiting mechanism in Selenium, allowing for custom polling intervals and handling of exceptions, which makes it ideal for scenarios where elements load unpredictably.
+Fluent Wait is a more advanced and flexible waiting mechanism in Selenium, allowing for custom polling intervals and 
+handling of exceptions, which makes it ideal for scenarios where elements load unpredictably.
 
 '''

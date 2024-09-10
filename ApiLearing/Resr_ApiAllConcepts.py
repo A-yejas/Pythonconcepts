@@ -73,13 +73,16 @@ data driven framework means:- when you ingest some data into from external sourc
 your test runs multiple times.
 Where we will use this data driven testing :-  we can use this DDT is for example create Auth, For example
 for create Authentication , suppose i want to test my 100 users for admin 
+OR
+1.In simple terms, a framework is like a set of tools, guidelines, and structures that help you build something
+more easily and efficiently
 
 '''
 ##Create Virtual ENV:- virtualenv (name_any eg:- venv)
 #for activae For linux :-  Source  venu/bin/activate , For deactivate:- deactivate
 #README.md is a create documentation file
 '''
-#If you make package as if you make folder as a package Python interpreter will recognize. 
+#if you make folder as a package Python interpreter will recognize. 
 #2. If you creating a python package it is basically telling to python interpreter that every thing is good.same time
 intelliJ also recognize it is fast execution
 pip lst :- you can see all install packages
@@ -271,8 +274,8 @@ mockaro.com --> is generate the data for testing
 -----
 Vriable means to store a data
 Types of variables in postman:-
-1.Global variable, 2. Collection variable,3.Environment variables,4.data variabkes,5. Local variable
-payload means  dada
+1.Global variable, 2. Collection variable,3.Environment variables,4.data variables,5. Local variable
+payload means  data
 ------------
 var loca_var=pm.response.json()
 var booking_id=loca_var['booking_id']
