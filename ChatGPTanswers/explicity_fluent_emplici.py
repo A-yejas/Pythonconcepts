@@ -210,7 +210,9 @@ Selenium tests more precise and robust. Let me know if you need more details or 
 '''
 ###########flueent wait means in selenium>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 '''
-In Selenium, "Fluent Wait" is a type of wait that allows you to define the maximum amount of time to wait for a condition, as well as the frequency with which to check the condition. Fluent Wait also allows you to ignore specific types of exceptions while waiting, such as `NoSuchElementException`.
+In Selenium, "Fluent Wait" is a type of wait that allows you to define the maximum amount of time to wait for a condition, 
+as well as the frequency with which to check the condition.
+Fluent Wait also allows you to ignore specific types of exceptions while waiting, such as `NoSuchElementException`.
 
 ### Key Features of Fluent Wait:
 
@@ -220,7 +222,8 @@ In Selenium, "Fluent Wait" is a type of wait that allows you to define the maxim
 
 ### Why Use Fluent Wait?
 
-- **Flexibility**: Fluent Wait gives you more control compared to other wait mechanisms like `Implicit Wait` or `Explicit Wait`. It’s particularly useful in situations where the element's presence is unpredictable, and you want to wait with a specific polling interval.
+- **Flexibility**: Fluent Wait gives you more control compared to other wait mechanisms like `Implicit Wait` or `Explicit Wait`. 
+It’s particularly useful in situations where the element's presence is unpredictable, and you want to wait with a specific polling interval.
 - **Exception Handling**: It allows you to gracefully handle situations where elements might take a while to appear or become clickable, without immediately throwing an error.
 
 ### Example in Python:

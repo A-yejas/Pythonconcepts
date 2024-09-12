@@ -168,7 +168,8 @@ driver.quit()
 ```
 
 ### 2. **Using `get_attribute('innerHTML')` Method**
-The `get_attribute('innerHTML')` method retrieves the entire HTML content inside an element, including nested HTML tags.
+The `get_attribute('innerHTML')` method retrieves the entire HTML content inside an element, 
+including nested HTML tags.
 
 #### Example:
 ```python

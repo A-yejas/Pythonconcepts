@@ -68,7 +68,10 @@ This script provides a simple and straightforward way to find broken links on a 
 '''
 # ------------------POM
 '''
-The **Page Object Model (POM)** is a design pattern commonly used in Selenium test automation to improve test maintenance and reduce code duplication. In this model, each web page or web component is represented by a corresponding class. The elements on the page are encapsulated within these classes, and methods are created to interact with these elements.
+The **Page Object Model (POM)** is a design pattern commonly used in Selenium test automation to improve test
+ maintenance and reduce code duplication. In this model, each web page or web component is represented by a 
+ corresponding class. The elements on the page are encapsulated within these classes, and methods are created to 
+ interact with these elements.
 
 ### Example of Page Object Model in Python with Selenium
 
